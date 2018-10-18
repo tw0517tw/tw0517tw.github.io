@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{131:function(n,t,e){"use strict";e.r(t);var w=e(0),i=e.n(w);t.default=function(){return i.a.createElement("div",null,"Hi! 我是 tw0517tw，我還沒想好這邊要幹嘛")}}}]);
+//# sourceMappingURL=component---src-pages-index-js-6fa8231d8a554dafc16c.js.map
