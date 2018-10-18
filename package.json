@@ -6,7 +6,7 @@
   "author": "tw0517tw",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build && cp CNAME public/ && gh-pages -d public -b master -m 'Auto-generated commit [ci skip]'",
+    "deploy": "gatsby build && cpy CNAME public/ && gh-pages -d public -b master -m 'Auto-generated commit [ci skip]'",
     "develop": "gatsby develop",
     "lint:js": "eslint .",
     "serve": "gatsby serve"
@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
+    "cpy-cli": "^2.0.0",
     "eslint": "^5.6.1",
     "eslint-config-yoctol": "^0.18.2",
     "eslint-plugin-graphql": "^2.1.1",
@@ -28,6 +29,7 @@
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-sort-imports-es6-autofix": "^0.3.0",
+    "gh-pages": "^2.0.1",
     "husky": "^1.1.0",
     "lint-staged": "^7.3.0",
     "prettier": "^1.14.2",
