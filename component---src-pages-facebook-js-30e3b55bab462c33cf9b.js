@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{131:function(w,o,n){"use strict";n.r(o),o.default=function(){window.location.href="https://www.facebook.com/tw0517tw"}}}]);
+//# sourceMappingURL=component---src-pages-facebook-js-30e3b55bab462c33cf9b.js.map

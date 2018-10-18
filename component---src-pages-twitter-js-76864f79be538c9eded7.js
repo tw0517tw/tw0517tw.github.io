@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{135:function(t,w,n){"use strict";n.r(w),w.default=function(){window&&(window.location.href="https://twitter.com/tw0517tw")}}}]);
+//# sourceMappingURL=component---src-pages-twitter-js-76864f79be538c9eded7.js.map

@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{132:function(t,n,o){"use strict";o.r(n),n.default=function(){window.location.href="https://github.com/tw0517tw"}}}]);
+//# sourceMappingURL=component---src-pages-github-js-96205937fb321b30c8bc.js.map

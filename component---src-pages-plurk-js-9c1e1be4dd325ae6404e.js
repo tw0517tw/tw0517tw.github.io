@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{134:function(w,n,o){"use strict";o.r(n),n.default=function(){window&&(window.location.href="https://www.plurk.com/tw0517tw")}}}]);
+//# sourceMappingURL=component---src-pages-plurk-js-9c1e1be4dd325ae6404e.js.map
