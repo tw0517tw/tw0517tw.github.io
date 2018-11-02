@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Component } from 'react';
+import React, { Component } from 'react';
 
 class Redirect extends Component {
   propTypes = {
@@ -12,7 +12,13 @@ class Redirect extends Component {
   }
 
   render() {
-    return null;
+    const { target } = this.props;
+
+    return (
+      <div>
+        Redirecting to [<a href={target}>{target}</a>] ...
+      </div>
+    );
   }
 }
 
