@@ -13,6 +13,7 @@ const Container = styled.div`
 `;
 
 const Image = styled.img`
+  width: 100%;
   max-width: 960px;
   height: 100%;
   margin: 20px 0;
