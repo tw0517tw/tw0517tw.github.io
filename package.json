@@ -6,7 +6,7 @@
   "author": "tw0517tw",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build && cpy CNAME public/ && gh-pages -d public -b master -m 'Auto-generated commit [ci skip]'",
+    "deploy": "gatsby build && cpy CNAME public/ && gh-pages -d public -b master -m \"Auto-generated commit [ci skip]\"",
     "dev": "yarn develop",
     "develop": "gatsby develop",
     "lint:js": "eslint .",
