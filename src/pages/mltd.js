@@ -19,9 +19,13 @@ const Image = styled.img`
   margin: 20px 0;
 `;
 
-export default () => (
-  <Container>
-    <Image src={front} />
-    <Image src={back} />
-  </Container>
-);
+function Mltd() {
+  return (
+    <Container>
+      <Image src={front} />
+      <Image src={back} />
+    </Container>
+  );
+}
+
+export default Mltd;
