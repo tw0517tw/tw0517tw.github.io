@@ -1,8 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import back from '../static/mltd/back.png';
-import front from '../static/mltd/front.png';
+import v1Back from '../static/mltd/v1/back.png';
+import v1Front from '../static/mltd/v1/front.png';
+import v2Back from '../static/mltd/v2/back.png';
+import v2Front from '../static/mltd/v2/front.png';
 
 const Container = styled.div`
   display: flex;
@@ -22,8 +24,13 @@ const Image = styled.img`
 function Mltd() {
   return (
     <Container>
-      <Image src={front} />
-      <Image src={back} />
+      <h2>2019-09-11 版本</h2>
+      <Image src={v2Front} />
+      <Image src={v2Back} />
+
+      <h2>2018-12-10 版本</h2>
+      <Image src={v1Front} />
+      <Image src={v1Back} />
     </Container>
   );
 }

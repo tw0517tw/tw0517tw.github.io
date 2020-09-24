@@ -5,7 +5,7 @@ const links = require('./content/links');
 exports.createPages = ({ actions }) => {
   const { createPage } = actions;
 
-  links.forEach(link => {
+  links.forEach((link) => {
     createPage({
       path: link.name,
       component: path.resolve('./src/templates/links.js'),
