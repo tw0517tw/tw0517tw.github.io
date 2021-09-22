@@ -9,8 +9,10 @@ const Container = styled.div`
   width: 100vw;
 `;
 
-export default () => (
+const Index = () => (
   <Layout>
     <Container>Hi! 我是 tw0517tw，我還沒想好這邊要幹嘛</Container>
   </Layout>
 );
+
+export default Index;
