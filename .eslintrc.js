@@ -1,6 +1,6 @@
 module.exports = {
   parser: 'babel-eslint',
-  extends: ['yoctol', 'next'],
+  extends: ['yoctol', 'plugin:@next/next/recommended'],
   env: {
     browser: true,
     node: true,
