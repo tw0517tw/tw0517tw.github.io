@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import back from '../static/cgss/back.png';
-import front from '../static/cgss/front.png';
+import back from '../public/cgss/back.png';
+import front from '../public/cgss/front.png';
 
 const Container = styled.div`
   display: flex;
@@ -22,8 +22,8 @@ const Image = styled.img`
 function Cgss() {
   return (
     <Container>
-      <Image src={front} />
-      <Image src={back} />
+      <Image src={front.src} />
+      <Image src={back.src} />
     </Container>
   );
 }

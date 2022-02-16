@@ -1,6 +1,5 @@
 node_modules
 coverage
-public
-.cache
+.next
 !.eslintrc.js
 !.babelrc.js
