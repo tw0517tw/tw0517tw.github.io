@@ -22,8 +22,8 @@ const Image = styled.img`
 function Cgss() {
   return (
     <Container>
-      <Image src={front.src} />
-      <Image src={back.src} />
+      <Image src={front.src} alt="Front cover" />
+      <Image src={back.src} alt="Back cover" />
     </Container>
   );
 }

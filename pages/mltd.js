@@ -25,12 +25,12 @@ function Mltd() {
   return (
     <Container>
       <h2>2019-09-11 版本</h2>
-      <Image src={v2Front.src} />
-      <Image src={v2Back.src} />
+      <Image src={v2Front.src} alt="Front cover" />
+      <Image src={v2Back.src} alt="Back cover" />
 
       <h2>2018-12-10 版本</h2>
-      <Image src={v1Front.src} />
-      <Image src={v1Back.src} />
+      <Image src={v1Front.src} alt="Front cover" />
+      <Image src={v1Back.src} alt="Back cover" />
     </Container>
   );
 }
