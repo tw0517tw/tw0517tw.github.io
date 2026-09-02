@@ -6,36 +6,36 @@
   "author": "tw0517tw",
   "scripts": {
     "build": "next build",
-    "dev": "yarn develop",
+    "dev": "next dev",
     "develop": "next dev",
     "lint": "eslint .",
-    "prepare": "husky install",
+    "prepare": "husky",
     "start": "next start"
   },
   "dependencies": {
-    "next": "^12.1.0",
+    "next": "^16.3.4",
     "prop-types": "^15.8.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-is": "^17.0.2",
-    "styled-components": "^5.3.3",
-    "styled-normalize": "^8.0.6"
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-is": "^19.2.8",
+    "styled-components": "^6.5.3",
+    "styled-normalize": "^8.1.1"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^12.0.10",
-    "babel-eslint": "^10.0.3",
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-yoctol": "^0.26.3",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.3.4",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
     "prettier": "^2.5.1",
-    "prettier-package-json": "^2.6.0"
+    "prettier-package-json": "^2.8.0"
   },
   "lint-staged": {
     "*.js": [
@@ -48,6 +48,7 @@
       "prettier-package-json --write"
     ]
   },
+  "packageManager": "pnpm@11.25.0",
   "prettier": {
     "trailingComma": "es5",
     "singleQuote": true
