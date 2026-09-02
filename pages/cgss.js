@@ -1,30 +1,22 @@
-import React from 'react';
-import styled from 'styled-components';
+import Image from 'next/image';
 
 import back from '../public/cgss/back.png';
 import front from '../public/cgss/front.png';
 
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 100vw;
-  height: 100%;
-`;
-
-const Image = styled.img`
-  width: 100%;
-  max-width: 960px;
-  height: 100%;
-  margin: 20px 0;
-`;
-
 function Cgss() {
   return (
-    <Container>
-      <Image src={front.src} alt="Front cover" />
-      <Image src={back.src} alt="Back cover" />
-    </Container>
+    <div className="flex max-w-screen h-full flex-col items-center">
+      <Image
+        className="my-5 h-auto w-full max-w-[960px]"
+        src={front}
+        alt="Front cover"
+      />
+      <Image
+        className="my-5 h-auto w-full max-w-[960px]"
+        src={back}
+        alt="Back cover"
+      />
+    </div>
   );
 }
 
